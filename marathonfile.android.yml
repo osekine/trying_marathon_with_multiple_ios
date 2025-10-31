@@ -1,0 +1,64 @@
+name: "Flutter android tests"
+
+outputDir: "marathon"
+
+debug: true
+
+ignoreFailures: true
+
+analyticsTracking: false
+bugsnagReporting: false
+
+uncompletedTestRetryQuota: 3
+
+retryStrategy:
+  type: "fixed-quota"
+  totalAllowedRetryQuota: 100
+  retryPerTestQuota: 5
+
+outputConfiguration:
+  maxPath: 1024
+
+testOutputTimeoutMillis: 300000
+deviceInitializationTimeoutMillis: 300000
+
+screenRecordingPolicy: "ON_ANY"
+
+vendorConfiguration:
+  type: "Android"
+  screenRecordConfiguration:
+    videoConfiguration:
+      enabled: true
+      width: 720
+      height: 1280
+      bitrateMbps: 2
+      timeLimit: 300
+    screenshotConfiguration:
+      enabled: false
+      width: 720
+      height: 1280
+      delayMs: 200
+  disableWindowAnimation: false
+  applicationApk: "internal_artifacts/app-inhouse.apk"
+  testApplicationApk: "internal_artifacts/app-inhouse-androidTest.apk"
+  testParserConfiguration:
+    type: "remote"
+    instrumentationArgs:
+      listener: "com.malinskiy.adam.junit4.android.listener.TestAnnotationProducer"
+  applicationPmClear: true
+  testApplicationPmClear: true
+  fileSyncConfiguration:
+    pull:
+      - relativePath: "/googletest/test_outputfiles/allure-results"
+        aggregationMode: TEST_RUN
+        pathRoot: EXTERNAL_STORAGE
+  timeoutConfiguration:
+    shell: "PT20M"
+    listFiles: "PT20M"
+    pushFile: "PT20M"
+    pushFolder: "PT20M"
+    pullFile: "PT20M"
+    install: "PT20M"
+    boot: "PT10M"
+  instrumentationArgs:
+    clearPackageData: true

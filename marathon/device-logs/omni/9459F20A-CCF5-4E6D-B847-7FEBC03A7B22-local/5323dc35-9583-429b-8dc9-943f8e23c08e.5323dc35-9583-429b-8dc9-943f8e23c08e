@@ -1,0 +1,3 @@
+Filtering the log data using "type == 1024"
+Timestamp               Ty Process[PID:TID]
+

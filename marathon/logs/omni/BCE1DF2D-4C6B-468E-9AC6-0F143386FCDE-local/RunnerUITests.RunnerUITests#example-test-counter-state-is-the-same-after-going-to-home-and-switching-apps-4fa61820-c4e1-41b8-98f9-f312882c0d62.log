@@ -1,0 +1,14 @@
+    t =     0.01s Set Up
+    t =     0.02s Open com.example.tryingPatrolMarathonIos
+    t =     0.02s     Launch com.example.tryingPatrolMarathonIos
+    t =     0.86s         Setting up automation session
+    t =     1.31s         Wait for com.example.tryingPatrolMarathonIos to idle
+2025-10-31 11:13:42.064 RunnerUITests-Runner[98075:9945699] PatrolServer: INFO: App reported that it is ready
+2025-10-31 11:13:43.987 RunnerUITests-Runner[98075:9945662] PatrolAppServiceClient.runDartTest(example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps)
+2025-10-31 11:13:44.378 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: pressing home button...
+    t =     4.41s Pressing Home button
+2025-10-31 11:13:44.840 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: done pressing home button
+2025-10-31 11:13:44.842 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: result: ()
+2025-10-31 11:13:44.867 RunnerUITests-Runner[98075:9945699] runDartTest("example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps"): call finished, test result: PASSED
+    t =     5.03s Tear Down
+Test Case '-[RunnerUITests example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps]' passed (5.238 seconds).

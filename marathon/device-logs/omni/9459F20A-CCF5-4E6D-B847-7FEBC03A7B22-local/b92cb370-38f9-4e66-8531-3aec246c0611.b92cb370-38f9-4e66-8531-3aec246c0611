@@ -1,0 +1,11 @@
+Filtering the log data using "type == 1024"
+Timestamp               Ty Process[PID:TID]
+2025-10-31 11:13:37.677 Df log[98064:97c167] (LoggingSupport) Sending stream request to diagnosticd
+2025-10-31 11:13:37.719 Df runningboardd[97360:97b939] [com.apple.runningboard:process] [osservice<com.apple.assistantd>:97359] Ignoring jetsam update because this process is not memory-managed
+2025-10-31 11:13:37.719 Df runningboardd[97360:97b939] [com.apple.runningboard:process] [osservice<com.apple.assistantd>:97359] Ignoring suspend because this process is not lifecycle managed
+2025-10-31 11:13:37.719 Df runningboardd[97360:97b939] [com.apple.runningboard:process] [osservice<com.apple.assistantd>:97359] Ignoring role changes because this process is not role managed
+2025-10-31 11:13:37.719 Df runningboardd[97360:97b939] [com.apple.runningboard:process] [osservice<com.apple.assistantd>:97359] Ignoring GPU update because this process is not GPU managed
+2025-10-31 11:13:37.721 Df runningboardd[97360:97b939] [com.apple.runningboard:process] [osservice<com.apple.assistantd>:97359] Ignoring memory limit update because this process is not memory-managed
+2025-10-31 11:13:37.722 Df runningboardd[97360:97b939] [com.apple.runningboard:ttl] Released power assertion with ID 65535
+2025-10-31 11:13:37.723 Df SpringBoard[97357:97ba38] [com.apple.runningboard:monitor] Received state update for 97359 (osservice<com.apple.assistantd>, running-NotVisible
+

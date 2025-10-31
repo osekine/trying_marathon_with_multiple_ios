@@ -1,0 +1,4 @@
+Filtering the log data using "type == 1024"
+Timestamp               Ty Process[PID:TID]
+2025-10-31 11:13:36.777 Df log[98021:97bfe5] (LoggingSupport) Sending stream request to diagnosticd
+

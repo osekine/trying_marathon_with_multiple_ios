@@ -1,0 +1,501 @@
+11:13:21.117 [main] INFO  c.m.marathon.cli.ApplicationView - Starting marathon v0.10.4, CliConfiguration: MarathonRunCommandCliConfiguration(marathonfile=Marathonfile, analyticsTracking=true, bugsnagReporting=true)
+11:13:21.121 [main] INFO  c.m.marathon.cli.ApplicationView - Checking Marathonfile config
+11:13:21.705 [main] INFO  c.m.m.e.NoopExceptionsReporter - Noop exceptions reporter started
+I 11:13:21.937 [main @coroutine#2] <com.malinskiy.marathon.Marathon> System Information:
+I 11:13:21.937 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.specification.version: 23
+I 11:13:21.937 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.class.path: /opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/cli-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/vendor-android-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/ios-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/macos-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/base-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/core-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/usage-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/configuration-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/html-report-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/execution-timeline-0.10.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/common-31.6.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/adam-0.5.8.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/influxdb-java-2.24.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/influxdb-client-java-7.2.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/influxdb-client-core-7.2.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/logging-interceptor-4.12.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/converter-moshi-2.9.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/converter-scalars-2.11.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/converter-gson-2.11.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/retrofit-2.11.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/okhttp-4.12.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/allure-kotlin-commons-2.4.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/bugsnag-3.7.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jackson-dataformat-yaml-2.17.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jackson-datatype-jsr310-2.17.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jackson-databind-2.17.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jackson-annotations-2.17.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/vertx-lang-kotlin-4.4.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/vertx-lang-kotlin-coroutines-4.4.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/vertx-core-4.4.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jackson-core-2.17.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jackson-module-kotlin-2.17.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlin-reflect-1.9.24.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/parser-2.3.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/ktor-network-jvm-2.3.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/ktor-utils-jvm-2.3.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/ktor-io-jvm-2.3.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlin-stdlib-jdk7-1.9.24.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlinx-coroutines-jdk8-1.8.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/grpc-kotlin-stub-1.4.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlinx-coroutines-core-jvm-1.8.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/clikt-mordant-jvm.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/koin-core-jvm-3.5.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/allure-kotlin-model-2.4.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlinx-serialization-json-jvm-1.2.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/stately-concurrent-collections-jvm-2.0.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/stately-concurrency-jvm-2.0.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlinx-serialization-core-jvm-1.2.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/stately-strict-jvm-2.0.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/clikt-jvm.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/mordant-omnibus-jvm.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/grpc-okhttp-1.59.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/okio-jvm-3.9.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/mordant-jvm-jna-jvm.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/mordant-jvm-ffm-jvm.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/mordant-jvm-graal-ffi-jvm.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/mordant-jvm.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/colormath-jvm.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlin-stdlib-1.9.24.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlin-logging-jvm-3.0.5.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlin-stdlib-jdk8-1.9.24.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/logback-classic-1.5.8.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/allure-test-filter-2.29.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/allure-environment-writer-1.0.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/allure-testng-2.8.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/allure-descriptions-javadoc-2.8.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/allure-java-commons-2.29.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/grpc-util-1.59.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/grpc-core-1.59.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/gson-2.11.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/commons-csv-1.11.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/rsync4j-all-3.3.0-1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/rsync4j-windows64-3.3.0-1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/rsync4j-core-3.3.0-1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/commons-io-2.17.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/imgscalr-lib-4.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/axmlparser-1.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/android-testrunner-contract-0.5.8.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/logback-core-1.5.8.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/sshj-0.39.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/asn-one-0.6.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/slf4j-api-2.0.15.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/commons-text-1.12.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/allure-model-2.29.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/testng-6.14.3.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/grpc-protobuf-lite-1.59.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/grpc-stub-1.59.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/grpc-context-1.59.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/grpc-api-1.59.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/guava-33.3.0-jre.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/error_prone_annotations-2.28.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/msgpack-core-0.9.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/rxjava-3.1.8.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/adapter-rxjava3-2.11.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/influxdb-client-utils-7.2.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jsr305-3.0.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/dd-plist-1.28.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jansi-2.4.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/kotlin-process-1.5.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/commons-lang3-3.14.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/annotations-31.6.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jna-platform-5.6.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/annotations-24.0.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/javax.annotation-api-1.3.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/commons-pool2-2.11.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/protobuf-javalite-3.25.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/snakeyaml-2.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jcommander-1.72.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/bsh-2.0b6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/moshi-1.8.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/reactive-streams-1.0.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/failureaccess-1.0.2.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/checker-qual-3.43.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/bcpkix-jdk18on-1.78.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/bcutil-jdk18on-1.78.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/bcprov-jdk18on-1.78.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/eddsa-0.3.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/jna-5.14.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-handler-proxy-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-codec-http2-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-codec-http-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-resolver-dns-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-handler-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-transport-native-unix-common-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-codec-socks-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-codec-dns-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-codec-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-transport-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-buffer-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-resolver-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/netty-common-4.1.100.Final.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/perfmark-api-0.26.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/commons-codec-1.16.1.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/commons-lang-2.6.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/argparse4j-0.9.0.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/processoutput4j-0.0.12.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/annotations-4.1.1.4.jar:/opt/homebrew/Cellar/marathon/0.10.4/libexec/lib/animal-sniffer-annotations-1.23.jar
+I 11:13:21.938 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vm.vendor: Homebrew
+I 11:13:21.938 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vendor.url: https://github.com/Homebrew/homebrew-core/issues
+I 11:13:21.938 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vm.specification.version: 23
+I 11:13:21.938 [main @coroutine#2] <com.malinskiy.marathon.Marathon> os.name: Mac OS X
+I 11:13:21.938 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.specification.vendor: Oracle Corporation
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.version.date: 2025-01-21
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.home: /opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vm.compressedOopsMode: Zero based
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vm.specification.vendor: Oracle Corporation
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.specification.name: Java Platform API Specification
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.runtime.version: 23.0.2
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> os.version: 15.6.1
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.runtime.name: OpenJDK Runtime Environment
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vm.name: OpenJDK 64-Bit Server VM
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vendor.version: Homebrew
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vendor.url.bug: https://github.com/Homebrew/homebrew-core/issues
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.io.tmpdir: /var/folders/jm/lpyqxdnd7_3bw76w17kd_0x80000gn/T/
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.version: 23.0.2
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> os.arch: aarch64
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vm.specification.name: Java Virtual Machine Specification
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.library.path: /Users/osekine/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vm.info: mixed mode, sharing
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vendor: Homebrew
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.vm.version: 23.0.2
+I 11:13:21.939 [main @coroutine#2] <com.malinskiy.marathon.Marathon> java.class.version: 67.0
+D 11:13:21.941 [main @coroutine#2] <AppleSimulatorProvider> Initializing AppleSimulatorProvider
+D 11:13:21.941 [main @coroutine#2] <AppleSimulatorProvider> Using static device provider
+D 11:13:21.963 [AppleDeviceProvider-1 @coroutine#3] <AppleSimulatorProvider> Processing updates from com.malinskiy.marathon.apple.configuration.Transport$Local@29d1a61b:
+- Connected(target=SimulatorProfile(deviceTypeId=com.apple.CoreSimulator.SimDeviceType.iPhone-16, runtimeId=null, newNamePrefix=marathon))
+Connected(target=SimulatorProfile(deviceTypeId=com.apple.CoreSimulator.SimDeviceType.iPhone-16, runtimeId=null, newNamePrefix=marathon))
+D 11:13:24.018 [main @coroutine#2] <c.m.m.apple.AppleApplicationInstaller> Moving xctest runner application to BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:24.419 [main @coroutine#2] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred RunnerUITests-Runner.app with 35 dirs and 80 files to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 476099,22 KB/s (182346987 bytes in 0,3830)
+D 11:13:24.420 [main @coroutine#2] <c.m.m.apple.AppleApplicationInstaller> Generating test root for BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:24.999 [main @coroutine#2] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred Runner.app with 38 dirs and 126 files to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 442404,71 KB/s (206603856 bytes in 0,4670)
+D 11:13:25.016 [main @coroutine#2] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE9070917856411509444xctestrun to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 2000,00 KB/s (2355 bytes in 0,0010)
+D 11:13:25.018 [main @coroutine#2] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred 13088395471842317420.tmp to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 126000,00 KB/s (126214 bytes in 0,0010)
+D 11:13:25.018 [main @coroutine#2] <XCTestParser> Remote xctestrun = /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/marathon.xctestrun
+D 11:13:25.020 [AppleSimulatorDevice - execution - local-7 @coroutine#223] <c.m.m.a.bin.xcrun.xcodebuild.Xcodebuild> Running xcrun xcodebuild test-without-building -xctestrun /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/marathon.xctestrun -enableCodeCoverage NO -destination-timeout 30 -destination 'platform=iOS Simulator,id=BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE'
+D 11:13:25.585 [AppleDeviceProvider-12 @coroutine#4] <c.m.m.apple.device.ConnectionFactory> Disposing of command executor for KotlinProcessHost(id=local, charset=UTF-8)
+D 11:13:25.586 [AppleDeviceProvider-4 @coroutine#3] <AppleSimulatorProvider> Providing 2 devices
+D 11:13:34.782 [DefaultDispatcher-worker-12 @coroutine#227] <TestRunProgressParser> Test .RunnerUITests.example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps finished with result <passed> after 0.207 seconds
+D 11:13:34.785 [DefaultDispatcher-worker-12 @coroutine#227] <TestRunProgressParser> Test .RunnerUITests.example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps finished with result <passed> after 0.001 seconds
+D 11:13:34.786 [DefaultDispatcher-worker-12 @coroutine#227] <TestRunProgressParser> Test .RunnerUITests.example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps finished with result <passed> after 0.002 seconds
+D 11:13:34.787 [DefaultDispatcher-worker-12 @coroutine#227] <TestRunProgressParser> Test .RunnerUITests.example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps finished with result <passed> after 0.0 seconds
+E 11:13:35.156 [DefaultDispatcher-worker-13 @coroutine#261] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr=--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+E 11:13:35.156 [DefaultDispatcher-worker-13 @coroutine#261] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr={ platform:iOS Simulator, id:BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE, OS:18.3.1, name:iPhone 16 }
+E 11:13:35.156 [DefaultDispatcher-worker-13 @coroutine#261] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr={ platform:iOS Simulator, id:BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE, OS:18.3.1, name:iPhone 16 }
+E 11:13:35.156 [DefaultDispatcher-worker-13 @coroutine#261] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr=2025-10-31 11:13:35.074 xcodebuild[97926:9943720] [MT] IDETestOperationsObserverDebug: 8.299 elapsed -- Testing started completed.
+E 11:13:35.156 [DefaultDispatcher-worker-13 @coroutine#261] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr=2025-10-31 11:13:35.074 xcodebuild[97926:9943720] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+E 11:13:35.156 [DefaultDispatcher-worker-13 @coroutine#261] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr=2025-10-31 11:13:35.074 xcodebuild[97926:9943720] [MT] IDETestOperationsObserverDebug: 8.299 sec, +8.299 sec -- end
+D 11:13:35.156 [DefaultDispatcher-worker-13 @coroutine#223] <c.m.m.apple.ios.AppleSimulatorDevice> Finished test batch execution with exit status 0
+D 11:13:35.156 [main @coroutine#2] <XCTestParser> Execution finished
+D 11:13:35.159 [main @coroutine#2] <com.malinskiy.marathon.Marathon> Parsing took 13367 ms
+I 11:13:35.162 [main @coroutine#2] <com.malinskiy.marathon.Marathon> Scheduling 4 tests
+D 11:13:35.162 [main @coroutine#2] <com.malinskiy.marathon.Marathon> RunnerUITests.RunnerUITests#example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, RunnerUITests.RunnerUITests#example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, RunnerUITests.RunnerUITests#example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, RunnerUITests.RunnerUITests#example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps
+I 11:13:35.163 [main @coroutine#2] <com.malinskiy.marathon.Marathon> Output /Users/osekine/Projects/trying_patrol_marathon_ios/marathon already exists
+D 11:13:35.170 [main @coroutine#263] <Scheduler> device BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local associated with poolId omni
+D 11:13:35.178 [main @coroutine#263] <Scheduler> pool actor omni is being created
+D 11:13:35.181 [main @coroutine#263] <Scheduler> device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local associated with poolId omni
+D 11:13:35.182 [main @coroutine#264] <DevicePoolActor[omni]> add device BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:35.185 [main @coroutine#264] <DevicePoolActor[omni]> add device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:35.186 [main @coroutine#266] <DevicePool[omni]_DeviceActor[BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local]> initialize BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:35.186 [main @coroutine#267] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> initialize 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:35.244 [AppleSimulatorDevice - execution - local-3 @prepare 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#328] <c.m.m.apple.AppleApplicationInstaller> Moving xctest runner application to 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:35.244 [AppleSimulatorDevice - execution - local-2 @prepare BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#329] <c.m.m.apple.AppleApplicationInstaller> Moving xctest runner application to BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:35.258 [AppleSimulatorDevice - execution - local-3 @prepare BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#331] <c.m.m.apple.ios.AppleSimulatorDevice> Disabled hardware keyboard for BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE
+D 11:13:35.258 [AppleSimulatorDevice - execution - local-8 @prepare 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#330] <c.m.m.apple.ios.AppleSimulatorDevice> Disabled hardware keyboard for 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22
+D 11:13:35.543 [AppleSimulatorDevice - execution - local-4 @prepare 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#328] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred RunnerUITests-Runner.app with 35 dirs and 80 files to/from 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local. 633145,83 KB/s (182346987 bytes in 0,2880)
+D 11:13:35.543 [AppleSimulatorDevice - execution - local-4 @prepare 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#328] <c.m.m.apple.AppleApplicationInstaller> Generating test root for 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:35.992 [AppleSimulatorDevice - execution - local-1 @prepare 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#328] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred Runner.app with 38 dirs and 126 files to/from 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local. 535240,93 KB/s (206603856 bytes in 0,3860)
+D 11:13:36.393 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> request next batch for device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:36.394 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> sending next batch for device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:36.396 [main @coroutine#267] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> executeBatch 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:36.405 [AppleSimulatorDevice - execution - local-3 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#486] <c.m.marathon.apple.AppleDeviceTestRunner> Remote xctestrun = /tmp/marathon/9459F20A-CCF5-4E6D-B847-7FEBC03A7B22/marathon.xctestrun
+D 11:13:36.405 [AppleSimulatorDevice - execution - local-3 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#486] <c.m.marathon.apple.AppleDeviceTestRunner> Tests = [Test(pkg=RunnerUITests, clazz=RunnerUITests, method=example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, metaProperties=[])]
+D 11:13:36.482 [AppleSimulatorDevice - execution - local-8 @prepare BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#329] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred RunnerUITests-Runner.app with 35 dirs and 80 files to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 852084,11 KB/s (182346987 bytes in 0,2140)
+D 11:13:36.483 [AppleSimulatorDevice - execution - local-8 @prepare BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#329] <c.m.m.apple.AppleApplicationInstaller> Generating test root for BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:36.783 [AppleSimulatorDevice - execution - local-4 @prepare BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#329] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred Runner.app with 38 dirs and 126 files to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 850218,11 KB/s (206603856 bytes in 0,2430)
+D 11:13:36.792 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> request next batch for device BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:36.792 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> sending next batch for device BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:36.792 [main @coroutine#266] <DevicePool[omni]_DeviceActor[BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local]> executeBatch BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:36.792 [AppleSimulatorDevice - execution - local-7 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <c.m.marathon.apple.AppleDeviceTestRunner> Remote xctestrun = /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/marathon.xctestrun
+D 11:13:36.792 [AppleSimulatorDevice - execution - local-7 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <c.m.marathon.apple.AppleDeviceTestRunner> Tests = [Test(pkg=RunnerUITests, clazz=RunnerUITests, method=example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, metaProperties=[])]
+W 11:13:36.837 [AppleSimulatorDevice - execution - local-1 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#486] <c.m.m.apple.listener.TestResultsListener> uncompleted = RunnerUITests.RunnerUITests#example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:36.851 [AppleSimulatorDevice - execution - local-4 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#486] <c.m.m.a.i.listener.log.DeviceLogListener> Pulling finished in 1ms /tmp/marathon/9459F20A-CCF5-4E6D-B847-7FEBC03A7B22/device.log 
+I 11:13:36.852 [AppleSimulatorDevice - execution - local-4 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#486] <DebugTestRunListener> afterTestRun
+E 11:13:36.866 [main @coroutine#485] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> Unknown vendor exception caught. Considering this a recoverable error
+com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice$execute$2.invokeSuspend(AppleSimulatorDevice.kt:269)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice.execute(AppleSimulatorDevice.kt:290)
+	at com.malinskiy.marathon.execution.device.DeviceActor$executeBatch$2.invokeSuspend(DeviceActor.kt:190)
+Caused by: com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+D 11:13:36.869 [main @coroutine#485] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> Returning batch d93511b1-3bbd-4c4f-9a72-81ee14b756f9. Reason: Unknown vendor exception caught:
+com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice$execute$2.invokeSuspend(AppleSimulatorDevice.kt:269)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice.execute(AppleSimulatorDevice.kt:290)
+	at com.malinskiy.marathon.execution.device.DeviceActor$executeBatch$2.invokeSuspend(DeviceActor.kt:190)
+Caused by: com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+D 11:13:36.870 [main @coroutine#264] <DevicePoolActor[omni]> pool DevicePoolId(name=omni): device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local returned test batch
+D 11:13:36.871 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> onReturnBatch 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local. reason=Unknown vendor exception caught:
+com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice$execute$2.invokeSuspend(AppleSimulatorDevice.kt:269)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice.execute(AppleSimulatorDevice.kt:290)
+	at com.malinskiy.marathon.execution.device.DeviceActor$executeBatch$2.invokeSuspend(DeviceActor.kt:190)
+Caused by: com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+00% | [omni]-[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local] RunnerUITests.RunnerUITests#example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps incomplete
+D 11:13:36.872 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> handle test results 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:36.872 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> uncompletedTestRetryQuota exceeded for RunnerUITests.RunnerUITests#example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps
+00% | [omni]-[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local] RunnerUITests.RunnerUITests#example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps incomplete
+D 11:13:36.873 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> request next batch for device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:36.873 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> sending next batch for device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:36.873 [main @coroutine#264] <DevicePoolActor[omni]> Notify devices
+D 11:13:36.873 [main @coroutine#264] <DevicePoolActor[omni]> Notify devices
+D 11:13:36.873 [main @coroutine#267] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> executeBatch 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:36.874 [AppleSimulatorDevice - execution - local-5 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#608] <c.m.marathon.apple.AppleDeviceTestRunner> Remote xctestrun = /tmp/marathon/9459F20A-CCF5-4E6D-B847-7FEBC03A7B22/marathon.xctestrun
+D 11:13:36.874 [AppleSimulatorDevice - execution - local-5 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#608] <c.m.marathon.apple.AppleDeviceTestRunner> Tests = [Test(pkg=RunnerUITests, clazz=RunnerUITests, method=example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, metaProperties=[])]
+D 11:13:37.176 [AppleSimulatorDevice - execution - local-4 @coroutine#644] <c.m.m.a.bin.xcrun.xcodebuild.Xcodebuild> Running xcrun xcodebuild test-without-building -xctestrun /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/marathon.xctestrun '-only-testing:RunnerUITests/RunnerUITests/example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps' -enableCodeCoverage NO -resultBundlePath /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE.4fa61820-c4e1-41b8-98f9-f312882c0d62.xcresult -destination-timeout 30 -destination 'platform=iOS Simulator,id=BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE'
+W 11:13:37.301 [AppleSimulatorDevice - execution - local-8 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#608] <c.m.m.apple.listener.TestResultsListener> uncompleted = RunnerUITests.RunnerUITests#example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:37.309 [AppleSimulatorDevice - execution - local-1 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#608] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred 5323dc35-9583-429b-8dc9-943f8e23c08e.5323dc35-9583-429b-8dc9-943f8e23c08e to/from 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local. 0,00 KB/s (89 bytes in 0,0010)
+D 11:13:37.309 [AppleSimulatorDevice - execution - local-1 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#608] <c.m.m.a.i.listener.log.DeviceLogListener> Pulling finished in 1ms /tmp/marathon/9459F20A-CCF5-4E6D-B847-7FEBC03A7B22/device.log 
+I 11:13:37.310 [AppleSimulatorDevice - execution - local-1 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#608] <DebugTestRunListener> afterTestRun
+E 11:13:37.316 [main @coroutine#607] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> Unknown vendor exception caught. Considering this a recoverable error
+com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice$execute$2.invokeSuspend(AppleSimulatorDevice.kt:269)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice.execute(AppleSimulatorDevice.kt:290)
+	at com.malinskiy.marathon.execution.device.DeviceActor$executeBatch$2.invokeSuspend(DeviceActor.kt:190)
+Caused by: com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+D 11:13:37.316 [main @coroutine#607] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> Returning batch 5323dc35-9583-429b-8dc9-943f8e23c08e. Reason: Unknown vendor exception caught:
+com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice$execute$2.invokeSuspend(AppleSimulatorDevice.kt:269)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice.execute(AppleSimulatorDevice.kt:290)
+	at com.malinskiy.marathon.execution.device.DeviceActor$executeBatch$2.invokeSuspend(DeviceActor.kt:190)
+Caused by: com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+D 11:13:37.317 [main @coroutine#264] <DevicePoolActor[omni]> pool DevicePoolId(name=omni): device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local returned test batch
+D 11:13:37.317 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> onReturnBatch 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local. reason=Unknown vendor exception caught:
+com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice$execute$2.invokeSuspend(AppleSimulatorDevice.kt:269)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice.execute(AppleSimulatorDevice.kt:290)
+	at com.malinskiy.marathon.execution.device.DeviceActor$executeBatch$2.invokeSuspend(DeviceActor.kt:190)
+Caused by: com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+00% | [omni]-[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local] RunnerUITests.RunnerUITests#example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps incomplete
+D 11:13:37.317 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> handle test results 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:37.317 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> uncompletedTestRetryQuota exceeded for RunnerUITests.RunnerUITests#example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps
+00% | [omni]-[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local] RunnerUITests.RunnerUITests#example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps incomplete
+D 11:13:37.317 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> request next batch for device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:37.317 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> sending next batch for device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:37.317 [main @coroutine#264] <DevicePoolActor[omni]> Notify devices
+D 11:13:37.317 [main @coroutine#264] <DevicePoolActor[omni]> Notify devices
+D 11:13:37.318 [main @coroutine#267] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> executeBatch 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:37.318 [AppleSimulatorDevice - execution - local-6 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#678] <c.m.marathon.apple.AppleDeviceTestRunner> Remote xctestrun = /tmp/marathon/9459F20A-CCF5-4E6D-B847-7FEBC03A7B22/marathon.xctestrun
+D 11:13:37.318 [AppleSimulatorDevice - execution - local-6 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#678] <c.m.marathon.apple.AppleDeviceTestRunner> Tests = [Test(pkg=RunnerUITests, clazz=RunnerUITests, method=example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, metaProperties=[])]
+W 11:13:37.723 [AppleSimulatorDevice - execution - local-7 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#678] <c.m.m.apple.listener.TestResultsListener> uncompleted = RunnerUITests.RunnerUITests#example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:37.732 [AppleSimulatorDevice - execution - local-8 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#678] <c.m.m.a.i.listener.log.DeviceLogListener> Pulling finished in 0ms /tmp/marathon/9459F20A-CCF5-4E6D-B847-7FEBC03A7B22/device.log 
+I 11:13:37.732 [AppleSimulatorDevice - execution - local-8 @execute 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local#678] <DebugTestRunListener> afterTestRun
+E 11:13:37.738 [main @coroutine#677] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> Unknown vendor exception caught. Considering this a recoverable error
+com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice$execute$2.invokeSuspend(AppleSimulatorDevice.kt:269)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice.execute(AppleSimulatorDevice.kt:290)
+	at com.malinskiy.marathon.execution.device.DeviceActor$executeBatch$2.invokeSuspend(DeviceActor.kt:190)
+Caused by: com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+D 11:13:37.738 [main @coroutine#677] <DevicePool[omni]_DeviceActor[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local]> Returning batch b92cb370-38f9-4e66-8531-3aec246c0611. Reason: Unknown vendor exception caught:
+com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice$execute$2.invokeSuspend(AppleSimulatorDevice.kt:269)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice.execute(AppleSimulatorDevice.kt:290)
+	at com.malinskiy.marathon.execution.device.DeviceActor$executeBatch$2.invokeSuspend(DeviceActor.kt:190)
+Caused by: com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+D 11:13:37.739 [main @coroutine#264] <DevicePoolActor[omni]> pool DevicePoolId(name=omni): device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local returned test batch
+D 11:13:37.739 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> onReturnBatch 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local. reason=Unknown vendor exception caught:
+com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at _COROUTINE._BOUNDARY._(CoroutineDebugging.kt:42)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice$execute$2.invokeSuspend(AppleSimulatorDevice.kt:269)
+	at com.malinskiy.marathon.apple.ios.AppleSimulatorDevice.execute(AppleSimulatorDevice.kt:290)
+	at com.malinskiy.marathon.execution.device.DeviceActor$executeBatch$2.invokeSuspend(DeviceActor.kt:190)
+Caused by: com.malinskiy.marathon.apple.cmd.CommandException: command xcrun simctl get_app_container 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22 com.example.tryingPatrolMarathonIos data failed with exit code 2:
+                   stdout: 
+                   stderr: An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=2):
+The operation couldn’t be completed. No such file or directory
+No such file or directory
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$DefaultImpls.criticalExecute(CommandExecutor.kt:55)
+	at com.malinskiy.marathon.apple.cmd.CommandExecutor$criticalExecute$2.invokeSuspend(CommandExecutor.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:104)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+00% | [omni]-[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local] RunnerUITests.RunnerUITests#example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps incomplete
+D 11:13:37.739 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> handle test results 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:37.739 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> uncompletedTestRetryQuota exceeded for RunnerUITests.RunnerUITests#example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps
+00% | [omni]-[9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local] RunnerUITests.RunnerUITests#example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps incomplete
+D 11:13:37.739 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> request next batch for device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:37.740 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> queue is empty but there are active batches present for BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:37.740 [main @coroutine#264] <DevicePoolActor[omni]> Notify devices
+D 11:13:37.740 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> request next batch for device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:37.740 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> queue is empty but there are active batches present for BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+D 11:13:37.838 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> Command line invocation:
+D 11:13:37.839 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter>     /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test-without-building -xctestrun /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/marathon.xctestrun "-only-testing:RunnerUITests/RunnerUITests/example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps" -enableCodeCoverage NO -resultBundlePath /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE.4fa61820-c4e1-41b8-98f9-f312882c0d62.xcresult -destination-timeout 30 -destination "platform=iOS Simulator,id=BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE"
+D 11:13:37.839 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> 
+D 11:13:37.839 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> User defaults from command line:
+D 11:13:37.840 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter>     IDEBuildOperationResultBundlePath = /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE.4fa61820-c4e1-41b8-98f9-f312882c0d62.xcresult
+D 11:13:37.840 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter>     IDEPackageSupportUseBuiltinSCM = YES
+D 11:13:37.840 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> 
+D 11:13:37.954 [DefaultDispatcher-worker-10 @coroutine#648] <DebugLogPrinter> Writing result bundle at path:
+D 11:13:37.954 [DefaultDispatcher-worker-10 @coroutine#648] <DebugLogPrinter> 	/tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE.4fa61820-c4e1-41b8-98f9-f312882c0d62.xcresult
+D 11:13:37.954 [DefaultDispatcher-worker-10 @coroutine#648] <DebugLogPrinter> 
+D 11:13:38.038 [DefaultDispatcher-worker-10 @coroutine#648] <DebugLogPrinter> Testing started
+D 11:13:39.906 [DefaultDispatcher-worker-19 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.904 RunnerUITests-Runner[98075:9945662] Running tests without clearing permissions
+D 11:13:39.906 [DefaultDispatcher-worker-19 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.905 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: PATROL_TEST_PORT is null, falling back to default (8081)
+D 11:13:39.906 [DefaultDispatcher-worker-19 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.906 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: PatrolServer constructor called
+D 11:13:39.906 [DefaultDispatcher-worker-19 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.906 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: PATROL_ENABLED flag is defined
+D 11:13:39.911 [DefaultDispatcher-worker-13 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.910 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: Starting server...
+D 11:13:39.914 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.913 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: Server started on http://0.0.0.0:8081
+D 11:13:39.914 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.913 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: PATROL_APP_PORT is null, falling back to default (8082)
+D 11:13:39.914 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.913 RunnerUITests-Runner[98075:9945662] PatrolAppServiceClient: created, port: 8082
+D 11:13:39.917 [DefaultDispatcher-worker-13 @coroutine#648] <DebugLogPrinter>     t =      nans Checking existence of `"Allow" Button`
+D 11:13:39.961 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter>     t =      nans Ignoring failure to get hierarchy for remote element in process 96451 (Error getting main window kAXErrorServerNotFound)
+D 11:13:39.961 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter>     t =      nans Ignoring failure to get hierarchy for remote element in process 96451 (Error getting main window kAXErrorServerNotFound)
+D 11:13:39.962 [DefaultDispatcher-worker-13 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.961 RunnerUITests-Runner[98075:9945662] selectedTest: {
+D 11:13:39.962 [DefaultDispatcher-worker-13 @coroutine#648] <DebugLogPrinter>     name = "example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps";
+D 11:13:39.962 [DefaultDispatcher-worker-13 @coroutine#648] <DebugLogPrinter>     skip = 0;
+D 11:13:39.962 [DefaultDispatcher-worker-13 @coroutine#648] <DebugLogPrinter> }
+D 11:13:39.962 [DefaultDispatcher-worker-13 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:39.961 RunnerUITests-Runner[98075:9945662] RunnerUITests.testInvocations(): selectorName = example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, signature: <NSMethodSignature: 0x87304c3cd37b1777>
+D 11:13:39.971 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> Test Suite 'Selected tests' started at 2025-10-31 11:13:39.971.
+D 11:13:39.971 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> Test Suite 'RunnerUITests.xctest' started at 2025-10-31 11:13:39.971.
+D 11:13:39.972 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> Test Suite 'RunnerUITests' started at 2025-10-31 11:13:39.971.
+D 11:13:39.973 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter> Test Case '-[RunnerUITests example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps]' started.
+D 11:13:39.973 [DefaultDispatcher-worker-16 @coroutine#648] <DebugLogPrinter>     t =     0.00s Start Test at 2025-10-31 11:13:39.971
+I 11:13:39.975 [AppleSimulatorDevice - execution - local-3 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <DebugTestRunListener> testStarted BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local test = Test(pkg=RunnerUITests, clazz=RunnerUITests, method=example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, metaProperties=[])
+D 11:13:39.975 [AppleSimulatorDevice - execution - local-3 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <ScreenCapturerTestRunListener> Starting recording for RunnerUITests.example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps
+D 11:13:39.984 [DefaultDispatcher-worker-12 @coroutine#648] <DebugLogPrinter>     t =     0.01s Set Up
+D 11:13:39.989 [DefaultDispatcher-worker-10 @coroutine#648] <DebugLogPrinter>     t =     0.02s Open com.example.tryingPatrolMarathonIos
+D 11:13:39.995 [DefaultDispatcher-worker-10 @coroutine#648] <DebugLogPrinter>     t =     0.02s     Launch com.example.tryingPatrolMarathonIos
+D 11:13:40.559 [AppleSimulatorDevice - execution - local-7 @coroutine#725] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred 16447711976821433799.png to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 744000,00 KB/s (2976667 bytes in 0,0040)
+D 11:13:40.829 [DefaultDispatcher-worker-14 @coroutine#648] <DebugLogPrinter>     t =     0.86s         Setting up automation session
+D 11:13:41.281 [DefaultDispatcher-worker-9 @coroutine#648] <DebugLogPrinter>     t =     1.31s         Wait for com.example.tryingPatrolMarathonIos to idle
+D 11:13:41.689 [AppleSimulatorDevice - execution - local-2 @coroutine#725] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred 15015816683189382010.png to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 64000,00 KB/s (64881 bytes in 0,0010)
+D 11:13:42.065 [DefaultDispatcher-worker-4 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:42.064 RunnerUITests-Runner[98075:9945699] PatrolServer: INFO: App reported that it is ready
+D 11:13:42.975 [AppleSimulatorDevice - execution - local-8 @coroutine#725] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred 12025190149933372954.png to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 89000,00 KB/s (89553 bytes in 0,0010)
+D 11:13:43.381 [AppleSimulatorDevice - execution - local-4 @coroutine#725] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred 17533310583927052198.png to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 89000,00 KB/s (89511 bytes in 0,0010)
+D 11:13:43.987 [DefaultDispatcher-worker-17 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:43.987 RunnerUITests-Runner[98075:9945662] PatrolAppServiceClient.runDartTest(example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps)
+D 11:13:44.379 [DefaultDispatcher-worker-2 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:44.378 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: pressing home button...
+D 11:13:44.379 [DefaultDispatcher-worker-2 @coroutine#648] <DebugLogPrinter>     t =     4.41s Pressing Home button
+D 11:13:44.603 [AppleSimulatorDevice - execution - local-7 @coroutine#725] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred 10912519999333001364.png to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 106000,00 KB/s (106675 bytes in 0,0010)
+D 11:13:44.841 [DefaultDispatcher-worker-17 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:44.840 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: done pressing home button
+D 11:13:44.843 [DefaultDispatcher-worker-19 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:44.842 RunnerUITests-Runner[98075:9945662] PatrolServer: INFO: result: ()
+D 11:13:44.869 [DefaultDispatcher-worker-4 @coroutine#648] <DebugLogPrinter> 2025-10-31 11:13:44.867 RunnerUITests-Runner[98075:9945699] runDartTest("example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps"): call finished, test result: PASSED
+D 11:13:45.003 [DefaultDispatcher-worker-14 @coroutine#648] <DebugLogPrinter>     t =     5.03s Tear Down
+D 11:13:45.104 [AppleSimulatorDevice - execution - local-2 @coroutine#725] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred 9444421299173883253.png to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 777666,67 KB/s (2333384 bytes in 0,0030)
+D 11:13:45.209 [DefaultDispatcher-worker-9 @coroutine#648] <TestRunProgressParser> Test RunnerUITests.RunnerUITests.example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps finished with result <passed> after 5.238 seconds
+D 11:13:45.210 [DefaultDispatcher-worker-9 @coroutine#648] <DebugLogPrinter> Test Case '-[RunnerUITests example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps]' passed (5.238 seconds).
+D 11:13:45.214 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> Test Suite 'RunnerUITests' passed at 2025-10-31 11:13:45.212.
+D 11:13:45.215 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> 	 Executed 1 test, with 0 failures (0 unexpected) in 5.238 (5.241) seconds
+D 11:13:45.215 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> Test Suite 'RunnerUITests.xctest' passed at 2025-10-31 11:13:45.212.
+D 11:13:45.215 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> 	 Executed 1 test, with 0 failures (0 unexpected) in 5.238 (5.241) seconds
+D 11:13:45.215 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> Test Suite 'Selected tests' passed at 2025-10-31 11:13:45.213.
+D 11:13:45.215 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> 	 Executed 1 test, with 0 failures (0 unexpected) in 5.238 (5.242) seconds
+I 11:13:45.220 [AppleSimulatorDevice - execution - local-1 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <DebugTestRunListener> testPassed BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local test = Test(pkg=RunnerUITests, clazz=RunnerUITests, method=example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps, metaProperties=[]), timespan = [1761898419972,1761898425210]
+D 11:13:45.222 [AppleSimulatorDevice - execution - local-1 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <ScreenCapturerTestRunListener> Finished recording for RunnerUITests.example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps
+D 11:13:45.504 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> 
+D 11:13:45.504 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> Test session results, code coverage, and logs:
+D 11:13:45.504 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> 	/tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE.4fa61820-c4e1-41b8-98f9-f312882c0d62.xcresult
+D 11:13:45.504 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> 
+D 11:13:45.504 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> ** TEST EXECUTE SUCCEEDED **
+D 11:13:45.504 [DefaultDispatcher-worker-6 @coroutine#648] <DebugLogPrinter> 
+E 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr=--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+D 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <DebugLogPrinter> --- xcodebuild: WARNING: Using the first of multiple matching destinations:
+E 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr={ platform:iOS Simulator, id:BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE, OS:18.3.1, name:iPhone 16 }
+D 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <DebugLogPrinter> { platform:iOS Simulator, id:BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE, OS:18.3.1, name:iPhone 16 }
+E 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr={ platform:iOS Simulator, id:BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE, OS:18.3.1, name:iPhone 16 }
+D 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <DebugLogPrinter> { platform:iOS Simulator, id:BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE, OS:18.3.1, name:iPhone 16 }
+E 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr=2025-10-31 11:13:45.493 xcodebuild[98052:9945280] [MT] IDETestOperationsObserverDebug: 7.455 elapsed -- Testing started completed.
+D 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <DebugLogPrinter> 2025-10-31 11:13:45.493 xcodebuild[98052:9945280] [MT] IDETestOperationsObserverDebug: 7.455 elapsed -- Testing started completed.
+E 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr=2025-10-31 11:13:45.493 xcodebuild[98052:9945280] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+D 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <DebugLogPrinter> 2025-10-31 11:13:45.493 xcodebuild[98052:9945280] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+E 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <c.m.m.apple.ios.AppleSimulatorDevice> simulator BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE: stderr=2025-10-31 11:13:45.493 xcodebuild[98052:9945280] [MT] IDETestOperationsObserverDebug: 7.455 sec, +7.455 sec -- end
+D 11:13:45.532 [DefaultDispatcher-worker-10 @coroutine#803] <DebugLogPrinter> 2025-10-31 11:13:45.493 xcodebuild[98052:9945280] [MT] IDETestOperationsObserverDebug: 7.455 sec, +7.455 sec -- end
+D 11:13:45.533 [DefaultDispatcher-worker-10 @coroutine#644] <c.m.m.apple.ios.AppleSimulatorDevice> Finished test batch execution with exit status 0
+D 11:13:45.533 [AppleSimulatorDevice - execution - local-4 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <c.m.marathon.apple.AppleDeviceTestRunner> Execution finished
+D 11:13:45.568 [AppleSimulatorDevice - execution - local-7 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <c.m.m.apple.ios.AppleSimulatorDevice> Transferred 4fa61820-c4e1-41b8-98f9-f312882c0d62.4fa61820-c4e1-41b8-98f9-f312882c0d62 to/from BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local. 612000,00 KB/s (2448144 bytes in 0,0040)
+D 11:13:45.568 [AppleSimulatorDevice - execution - local-7 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <c.m.m.a.i.listener.log.DeviceLogListener> Pulling finished in 4ms /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/device.log 
+I 11:13:45.568 [AppleSimulatorDevice - execution - local-7 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <DebugTestRunListener> afterTestRun
+I 11:13:45.569 [AppleSimulatorDevice - execution - local-7 @execute BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local#566] <c.m.m.a.listener.ArtifactFinderListener> Session results available at /tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE.4fa61820-c4e1-41b8-98f9-f312882c0d62.xcresult
+D 11:13:45.578 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> handle test results BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local
+00% | [omni]-[BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE@local] RunnerUITests.RunnerUITests#example_test_counter_state_is_the_same_after_going_to_home_and_switching_apps passed
+D 11:13:45.579 [main @coroutine#265] <QueueActor[DevicePoolId(name=omni)]> request next batch for device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22@local
+D 11:13:45.579 [main @coroutine#264] <DevicePoolActor[omni]> pool DevicePoolId(name=omni): onQueueTerminated
+D 11:13:45.580 [main @coroutine#264] <DevicePoolActor[omni]> terminate pool DevicePoolId(name=omni)
+D 11:13:45.582 [main @coroutine#2] <AppleSimulatorProvider> Terminating AppleSimulatorProvider
+D 11:13:45.583 [main @coroutine#829] <c.m.m.apple.device.ConnectionFactory> Disposing of command executor for KotlinProcessHost(id=local, charset=UTF-8)
+D 11:13:45.583 [main @coroutine#829] <AppleSimulatorProvider> Disposed device 9459F20A-CCF5-4E6D-B847-7FEBC03A7B22
+D 11:13:45.584 [main @coroutine#828] <c.m.m.apple.device.ConnectionFactory> Disposing of command executor for KotlinProcessHost(id=local, charset=UTF-8)
+D 11:13:45.584 [main @coroutine#828] <AppleSimulatorProvider> Disposed device BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE
+Allure environment data saved.
+Marathon run finished:
+Device pool omni:
+	1 passed, 3 failed, 0 ignored tests
+	Failed tests:
+		RunnerUITests.RunnerUITests#example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps
+		RunnerUITests.RunnerUITests#example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps
+		RunnerUITests.RunnerUITests#example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps
+	Flakiness overhead: 0H 00m 00s
+	Raw: 1 passed, 3 failed, 0 ignored, 3 incomplete tests
+	Failed tests:
+		RunnerUITests.RunnerUITests#example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps failed 1 time(s)
+		RunnerUITests.RunnerUITests#example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps failed 1 time(s)
+		RunnerUITests.RunnerUITests#example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps failed 1 time(s)
+	Incomplete tests:
+		RunnerUITests.RunnerUITests#example0_test_counter_state_is_the_same_after_going_to_home_and_switching_apps incomplete 1 time(s)
+		RunnerUITests.RunnerUITests#example1_test_counter_state_is_the_same_after_going_to_home_and_switching_apps incomplete 1 time(s)
+		RunnerUITests.RunnerUITests#example2_test_counter_state_is_the_same_after_going_to_home_and_switching_apps incomplete 1 time(s)
+Total time: 0H 00m 24s
+
+I 11:13:45.910 [main] <c.m.m.exceptions.NoopExceptionsReporter> Noop exceptions reporter finished

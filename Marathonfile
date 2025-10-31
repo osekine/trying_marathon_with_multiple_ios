@@ -1,0 +1,69 @@
+name: "Flutter iOS tests"
+
+outputDir: "marathon"
+
+debug: true
+
+ignoreFailures: true
+
+analyticsTracking: false
+bugsnagReporting: false
+
+uncompletedTestRetryQuota: 1
+
+retryStrategy:
+  type: "fixed-quota"
+  totalAllowedRetryQuota: 100
+  retryPerTestQuota: 1
+
+outputConfiguration:
+  maxPath: 1024
+
+testOutputTimeoutMillis: 300000
+deviceInitializationTimeoutMillis: 300000
+
+poolingStrategy:
+  type: "omni"
+
+screenRecordingPolicy: "ON_ANY"
+debug: true
+vendorConfiguration:
+  type: "iOS"
+  deviceLog: true
+  bundle:
+    application: "build/ios_integ/Build/Products/Debug-iphonesimulator/Runner.app"
+    testApplication: "build/ios_integ/Build/Products/Debug-iphonesimulator/RunnerUITests-Runner.app"
+    testType: "xcuitest"
+  xcresult:
+    pullingPolicy: NEVER
+    remoteClean: true
+    preferredScreenCaptureFormat: SCREENSHOTS
+    attachments:
+      systemAttachmentLifetime: KEEP_ALWAYS
+  screenRecordConfiguration:
+    videoConfiguration:
+      enabled: false
+      codec: h264
+      display: internal
+      mask: black
+    screenshotConfiguration:
+      enabled: true
+      type: png
+      display: internal
+      mask: black
+      width: 720
+      height: 1280
+      delay: PT0.1S
+  dataContainerClear: true
+  testParserConfiguration:
+    type: "xctest"
+  threadingConfiguration:
+    deviceProviderThreads: 12
+    deviceThreads: 8
+  timeoutConfiguration:
+    shell: "PT20M"
+    install: "PT20M"
+    video: "PT20M"
+    importMedia: "PT20M"
+    reachability: "PT20M"
+    boot: "PT10M"

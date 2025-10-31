@@ -1,0 +1,18 @@
+Test Suite 'RunnerUITests' passed at 2025-10-31 11:13:45.212.
+	 Executed 1 test, with 0 failures (0 unexpected) in 5.238 (5.241) seconds
+Test Suite 'RunnerUITests.xctest' passed at 2025-10-31 11:13:45.212.
+	 Executed 1 test, with 0 failures (0 unexpected) in 5.238 (5.241) seconds
+Test Suite 'Selected tests' passed at 2025-10-31 11:13:45.213.
+	 Executed 1 test, with 0 failures (0 unexpected) in 5.238 (5.242) seconds
+
+Test session results, code coverage, and logs:
+	/tmp/marathon/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE/BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE.4fa61820-c4e1-41b8-98f9-f312882c0d62.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS Simulator, id:BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE, OS:18.3.1, name:iPhone 16 }
+{ platform:iOS Simulator, id:BCE1DF2D-4C6B-468E-9AC6-0F143386FCDE, OS:18.3.1, name:iPhone 16 }
+2025-10-31 11:13:45.493 xcodebuild[98052:9945280] [MT] IDETestOperationsObserverDebug: 7.455 elapsed -- Testing started completed.
+2025-10-31 11:13:45.493 xcodebuild[98052:9945280] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2025-10-31 11:13:45.493 xcodebuild[98052:9945280] [MT] IDETestOperationsObserverDebug: 7.455 sec, +7.455 sec -- end
